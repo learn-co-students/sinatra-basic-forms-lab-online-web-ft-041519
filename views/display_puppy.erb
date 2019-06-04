@@ -1,5 +1,15 @@
-<body>
-  <p>Puppy Name: <%= @name %></p>
-  <p>Puppy Breed: <%= @breed %></p>
-  <p>Puppy Age: <%= @age %> months</p>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Create a New Puppy</title>
+  </head>
+  <body>
+    Puppy Name:
+    <%= @new_pup.name %>
+    Puppy Breed:
+    <%= @new_pup.breed %>
+    Age:
+    <%= "#{@new_pup.months_old} months" %>
+  </body>
+</html>
